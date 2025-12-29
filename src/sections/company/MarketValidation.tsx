@@ -35,7 +35,6 @@ export default function MarketValidation() {
       stats: [
         { label: "Labor Saved", value: "70%" },
         { label: "Rev Uplift", value: "+45%" },
-        { label: "Deployment", value: "10 Days" },
         { label: "Cost Savings", value: "60%" },
       ],
     },
