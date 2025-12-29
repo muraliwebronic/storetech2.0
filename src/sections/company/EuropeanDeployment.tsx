@@ -124,7 +124,7 @@ export default function EuropeanDeployment() {
   }, []);
 
   return (
-    <section className="py-24 bg-black/5 relative overflow-hidden">
+    <section className="py-24  relative overflow-hidden">
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         
