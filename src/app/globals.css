@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Define the custom font family */
+  --font-display: "Inter Tight", sans-serif;
+  --font-sans: "Inter Tight", sans-serif;
+
+  /* You can add custom colors here if needed, but we will use standard grays */
+}
+
+/* Apply the font globally */
+body {
+  font-family: var(--font-sans);
+  @apply bg-white text-black antialiased;
+}
+
+/* Custom Utilities for text gradients */
+@utility gradient-text-bw {
+  @apply bg-gradient-to-r from-gray-900 via-gray-600 to-gray-400 bg-clip-text text-transparent;
+}
+
+/* --- SHIMMER ANIMATION --- */
+@keyframes shine-move {
+  0% {
+    transform: translateX(-150%) skewX(-12deg);
+  }
+  50%,
+  100% {
+    transform: translateX(250%) skewX(-12deg);
+  }
+}
+
+/* Utility class to apply the animation */
+.shine-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* The shiny reflection gradient: Transparent -> Subtle White -> Transparent */
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.08),
+    transparent
+  );
+  /* Runs every 4 seconds, smooth movement */
+  animation: shine-move 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none; /* Allows clicking through the shine */
+}
+
+/* --- HIDE SCROLLBAR UTILITY --- */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  /* Premium Slow Shimmer */
+  @keyframes shimmer-premium {
+    0% { transform: translateX(-150%) skewX(-20deg); }
+    100% { transform: translateX(150%) skewX(-20deg); }
+  }
+  
+  .animate-shimmer-premium {
+    animation: shimmer-premium 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  /* Text gradient animation */
+  @keyframes gradient-xy {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+}
