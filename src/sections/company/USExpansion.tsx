@@ -172,7 +172,7 @@ export default function USExpansion() {
              US Market Expansion
           </h2>
           <p className="text-gray-500 max-w-2xl text-lg font-light">
-            A strategic four-phase approach to capture the $11.5B US unmanned retail market, balancing rapid scale with sustainable unit economics.
+            A strategic four-phase approach to capture the $11.5B US unmanned retail market, balancing rapid scale with sustainable unit economics
           </p>
         </div>
 

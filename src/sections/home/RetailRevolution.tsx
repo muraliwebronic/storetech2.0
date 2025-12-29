@@ -32,7 +32,7 @@ export default function RetailRevolution() {
 
            {/* Subtext */}
            <p className="text-gray-500 max-w-2xl text-lg font-light">
-             We consolidate hardware, software, and payments into a single, autonomous platform.
+             We consolidate hardware, software, and payments into a single, autonomous platform
            </p>
 
         </div>

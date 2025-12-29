@@ -77,11 +77,9 @@ const ProductCard = ({ product, index }: { product: any; index: number }) => {
 
           {/* Product Image */}
           <div className="relative z-30 w-full h-full flex items-center justify-center transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-105 group-hover:-rotate-1">
-            <Image
+            <img
               src={imageSrc}
               alt={product.name}
-              width={800}
-              height={600}
               className="object-contain max-h-full drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
             />
           </div>

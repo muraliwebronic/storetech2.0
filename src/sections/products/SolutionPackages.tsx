@@ -11,7 +11,7 @@ export default function SolutionPackages() {
       id: "A",
       title: "Package A",
       subtitle: "Express Checkout",
-      description: "Essential automation for small to medium retail setups.",
+      description: "Essential automation for small to medium retail setups",
       icon: Zap,
       features: [
         "Smart Self-Checkout Terminal",
@@ -25,7 +25,7 @@ export default function SolutionPackages() {
       id: "B",
       title: "Package B",
       subtitle: "24/7 Unmanned Store",
-      description: "Complete autonomy for round-the-clock operations.",
+      description: "Complete autonomy for round-the-clock operations",
       icon: Layers, 
       features: [
         "Smart Self-Checkout",
@@ -41,7 +41,7 @@ export default function SolutionPackages() {
       id: "C",
       title: "Package C",
       subtitle: "Corporate Micro-Market",
-      description: "Tailored for office pantries and corporate environments.",
+      description: "Tailored for office pantries and corporate environments",
       icon: Briefcase,
       features: [
         "Smart Self-Checkout",
@@ -72,7 +72,7 @@ export default function SolutionPackages() {
             Plans for Every Stage
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            Pre-configured packages for common use cases. Start with a foundation and customize as you grow.
+            Pre-configured packages for common use cases. Start with a foundation and customize as you grow
           </p>
         </div>
 
@@ -179,7 +179,7 @@ export default function SolutionPackages() {
                 Need Something Custom?
               </h3>
               <p className="text-gray-400 mb-8 max-w-xl text-lg font-light">
-                Build your own solution package with our modular platform. Mix and match products to fit your specific needs.
+                Build your own solution package with our modular platform. Mix and match products to fit your specific needs
               </p>
               
               <Link href="#getQuote">

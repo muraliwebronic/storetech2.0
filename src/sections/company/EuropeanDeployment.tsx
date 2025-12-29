@@ -138,7 +138,7 @@ export default function EuropeanDeployment() {
              European Success Story
            </h2>
            <p className="text-gray-500 max-w-2xl text-lg font-light">
-             Our platform is proven across four countries, demonstrating scalability, stability, and strong market fit.
+             Our platform is proven across four countries, demonstrating scalability, stability, and strong market fit
            </p>
         </div>
 

@@ -57,7 +57,7 @@ export default function LeadingTeam() {
              Visionaries & Builders
           </h2>
           <p className="text-gray-500 max-w-xl text-lg font-light leading-relaxed">
-            Experienced professionals with deep expertise in retail technology, payments, and scaling operations.
+            Experienced professionals with deep expertise in retail technology, payments, and scaling operations
           </p>
         </div>
 

@@ -8,7 +8,7 @@ export default function MarketValidation() {
   const caseStudyData = [
     {
       title: "Peak Performance",
-      description: "Stress-tested during high-volume retail events.",
+      description: "Stress-tested during high-volume retail events",
       icon: Zap,
       stats: [
         { label: "Black Friday", value: "12k tx/hr" },
@@ -19,7 +19,7 @@ export default function MarketValidation() {
     },
     {
       title: "Reliability Metrics",
-      description: "Enterprise-grade uptime and security standards.",
+      description: "Enterprise-grade uptime and security standards",
       icon: ShieldCheck,
       stats: [
         { label: "System Uptime", value: "99.97%" },
@@ -30,7 +30,7 @@ export default function MarketValidation() {
     },
     {
       title: "Business Impact",
-      description: "Proven ROI with cost reduction and revenue growth.",
+      description: "Proven ROI with cost reduction and revenue growth",
       icon: TrendingUp,
       stats: [
         { label: "Labor Saved", value: "70%" },
@@ -42,7 +42,7 @@ export default function MarketValidation() {
   ];
 
   return (
-    <section className="py-24 bg-white border-t border-gray-100">
+    <section className="py-24 px-6 md:px-20 bg-white border-t border-gray-100">
       
       <div className="container mx-auto px-6">
         
@@ -56,7 +56,7 @@ export default function MarketValidation() {
              Battle-Tested Results
           </h2>
           <p className="text-gray-500 max-w-xl text-lg font-light leading-relaxed">
-            Our technology is validated across multiple retail formats, delivering consistent, verifiable results at scale.
+            Our technology is validated across multiple retail formats, delivering consistent, verifiable results at scale
           </p>
         </div>
 
