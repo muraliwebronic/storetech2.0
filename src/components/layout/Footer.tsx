@@ -36,10 +36,11 @@ export default function Footer() {
             
             {/* Brand */}
             <div>
-              <h3 className="font-display font-bold text-3xl tracking-tight mb-4">
-                Store<span className="text-gray-600">Tech</span>
-              </h3>
-              <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+                    <Link href="/" className="font-display font-bold text-2xl tracking-tight group">
+           <img src="./logow.png" className="h-10" alt="" />
+          </Link>
+       
+              <p className="text-gray-400 mt-2 text-sm leading-relaxed max-w-sm">
                 Modular, scalable solutions for unmanned retail — powering automation for self-checkout, vending, and analytics.
               </p>
             </div>

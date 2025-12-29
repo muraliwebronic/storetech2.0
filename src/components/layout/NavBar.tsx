@@ -47,15 +47,17 @@ export default function NavBar() {
         >
           {/* LOGO */}
           <Link href="/" className="font-display font-bold text-2xl tracking-tight group">
-            {/* "Store" - Always dark since background is white/light */}
+           <img src="./log.png" className="h-5 md:h-10" alt="" />
+          </Link>
+          {/* <Link href="/" className="font-display font-bold text-2xl tracking-tight group">
             <span className="text-gray-900">
               Store
             </span>
-            {/* "Tech" - Gray accent */}
+        
             <span className="text-gray-500 group-hover:text-black transition-colors">
               Tech
             </span>
-          </Link>
+          </Link> */}
 
           {/* DESKTOP NAV */}
           <div className="hidden md:flex items-center space-x-2">
